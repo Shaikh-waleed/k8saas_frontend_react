@@ -7,7 +7,7 @@ import { getResource } from '../api';
 
 
 const AuthContext = createContext<AuthContextType | null>(null);
-export const useAuthContext = () => useContext(AuthContext) as AuthContextType
+export const useAuthContext = () =>  useContext(AuthContext) as AuthContextType
 
 
 export const AuthProvider = ({ children }: AuthProviderProps) => {
